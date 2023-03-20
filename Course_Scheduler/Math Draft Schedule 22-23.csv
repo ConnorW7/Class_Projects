@@ -1,0 +1,59 @@
+﻿Subject,Course,Professor,Day of the week,Credits,Time,Section,Semester
+"Math,CS",294: Career and Vocation Seminar,Kelsey Marcinko,Thu,1,11:45-12:40,1,Fall
+"Math,CS",499: Research Methods,STAFF,"Mon,Wed,Fri",3,,1,Fall
+Math,107: Basic Concepts in Modern Mathematics,Lindy Moyer,"Tue,Thu",3,8:00-9:20,1,Fall
+Math,107: Basic Concepts in Modern Mathematics,Lindy Moyer,"Tue,Thu",3,9:30-10:50,2,Fall
+Math,108: Finite Mathematics,Martha Gady,"Mon,Wed,Fri",4,9:05-10:15,1,Fall
+Math,108: Finite Mathematics,Martha Gady,"Mon,Wed,Fri",4,12:50-1:45,1,Fall
+Math,130: College Algebra,Diana  Schepens,"Mon,Wed,Fri",3,10:25-11:20,1,Fall
+Math,150: Precalculus,Jordan Broussard,"Mon,Wed,Fri",4,9:05-10:15,2,Fall
+Math,150: Precalculus,Nate Moyer,"Mon,Wed,Fri",4,10:25-11:35,1,Fall
+Math,171: Calculus I,STAFF,"Mon,Wed,Fri",4,9:05-10:15,2,Fall
+Math,171: Calculus I,Immanuel Manohar,"Mon,Wed,Fri",4,10:25-11:35,3,Fall
+Math,171: Calculus I,Jordan Broussard,"Mon,Wed,Fri",4,1:55-3:05,4,Fall
+Math,171: Calculus I,Kelsey Marcinko,"Mon,Wed,Fri",4,10:25-11:35,1,Fall
+Math,172: Calculus II,Immanuel Manohar,"Mon,Tue,Wed,Fri",4,8:00-8:55,1,Fall
+Math,172: Calculus II,Immanuel Manohar,"Mon,Tue,Wed,Fri",4,11:45-12:40,2,Fall
+Math,221: Math for Elementary I,Molly Lamb,"Mon,Wed,Fri",3,9:05-10:00,1,Fall
+Math,222: Math for Elementary II,Molly Lamb,"Mon,Wed,Fri",3,10:25-11:20,1,Fall
+Math,256: Elementary Probability & Statistics,Molly Lamb,"Mon,Wed,Fri",3,12:50-1:45,1,Fall
+Math,256: Elementary Probability & Statistics,Steve Gady,"Mon,Wed,Fri",3,1:55-2:50,2,Fall
+Math,273: Calculus III,Lyle Cochran,"Mon,Tue,Wed,Fri",4,8:00-8:55,1,Fall
+Math,273: Calculus III,Lyle Cochran,"Mon,Tue,Wed,Fri",4,11:45-12:40,2,Fall
+Math,278: Discrete Mathematics,Diana  Schepens,"Mon,Wed,Fri",3,1:55-2:50,1,Fall
+Math,281: Differential Equations,Kelsey Marcinko,"Mon,Wed,Fri",3,9:05-10:00,1,Fall
+Math,306: Nonlinear Dynamics and Chaos,Diana  Schepens,"Mon,Wed,Fri",3,12:50-1:45,1,Fall
+Math,330: Linear Algebra,Jordan Broussard,"Mon,Wed,Fri",3,10:25-11:20,1,Fall
+Math,357: Mathematical Statistics I,Martha Gady,"Mon,Wed,Fri",3,8:00-8:55,1,Fall
+Math,410: Abstract Algebra I,Nate Moyer,"Mon,Wed,Fri",3,1:55-2:50,1,Fall
+,,,,,,,
+Math,256: Elementary Probability & Statistics,Immanuel Manohar,"Mon,Tue,Wed,Thu,Fri",3,9:00-12:00,2,Jan
+Math,256H: Elementary Probability & Statistics,Martha Gady,"Mon,Tue,Wed,Thu,Fri",3,9:00-12:00,1,Jan
+Math,256: Elementary Probability & Statistics,Molly Lamb,"Mon,Tue,Wed,Thu,Fri",3,1:00-4:00,3,Jan
+Math,256: Elementary Probability & Statistics,Steve Gady,"Mon,Tue,Wed,Thu,Fri",3,9:00-12:00,4,Jan
+Math,352: Intro to Mathematical Biology,Diana  Schepens,"Mon,Tue,Wed,Thu,Fri",3,9:00-12:00,1,Jan
+,,,,,,,
+Math,107: Basic Concepts in Modern Mathematics,Lindy Moyer,"Tue,Thu",3,8:00-9:20,1,Spring
+Math,108: Finite Mathematics,Lindy Moyer,"Mon,Wed,Fri",4,1:55-3:05,2,Spring
+Math,130: College Algebra,Lindy Moyer,"Tue,Thu",3,9:30-10:50,1,Spring
+Math,150: Precalculus,Jordan Broussard,"Mon,Wed,Fri",4,10:25-11:35,1,Spring
+Math,158: Calculus for Social Science,Molly Lamb,"Mon,Wed,Fri",3,1:55-3:05,1,Spring
+Math,171: Calculus I,Lyle Cochran,"Mon,Wed,Fri",4,9:05-10:15,1,Spring
+Math,171: Calculus I,Nate Moyer,"Mon,Wed,Fri",4,10:25-11:35,2,Spring
+Math,172: Calculus II,Anne Trefry,"Mon,Tue,Wed,Fri",4,11:45-12:40,2,Spring
+Math,172: Calculus II,Diana  Schepens,"Mon,Tue,Wed,Fri",4,8:00-8:55,1,Spring
+Math,172: Calculus II,Kelsey Marcinko,"Mon,Tue,Wed,Fri",4,11:45-12:40,3,Spring
+Math,221: Math for Elementary I,Molly Lamb,"Mon,Wed,Fri",3,9:05-10:00,1,Spring
+Math,222: Math for Elementary II,Molly Lamb,"Mon,Wed,Fri",3,10:25-11:20,1,Spring
+Math,256: Elementary Probability & Statistics,Diana  Schepens,"Mon,Wed,Fri",3,12:50-1:45,3,Spring
+Math,256: Elementary Probability & Statistics,Immanuel Manohar,"Mon,Wed,Fri",3,11:45-12:40,2,Spring
+Math,256: Elementary Probability & Statistics,Jordan Broussard,"Mon,Wed,Fri",3,1:55-2:50,1,Spring
+Math,273: Calculus III,Lyle Cochran,"Mon,Tue,Wed,Fri",4,8:00-8:55,1,Spring
+Math,278: Discrete Mathematics,Anne Trefry,"Mon,Wed,Fri",3,1:55-2:50,1,Spring
+Math,281: Differential Equations,Kelsey Marcinko,"Mon,Wed,Fri",3,9:05-10:00,1,Spring
+Math,330: Linear Algebra,Anne Trefry,"Mon,Wed,Fri",3,10:25-11:20,1,Spring
+Math,350: Numerical Analysis,Kelsey Marcinko,"Mon,Wed,Fri",3,12:50-1:45,1,Spring
+Math,358: Mathematical Statistics II,Martha Gady,"Mon,Wed,Fri",3,10:25-11:20,1,Spring
+Math,365: Geometry,Martha Gady,"Mon,Wed,Fri",3,8:00-8:55,1,Spring
+Math,411: Abstract Algebra II,Nate Moyer,"Mon,Wed,Fri",3,1:55-2:50,1,Spring
+Math,430: Graph Theory & Combinatorics,Jordan Broussard,"Mon,Wed,Fri",3,9:05-10:00,1,Spring

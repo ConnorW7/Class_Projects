@@ -1,0 +1,41 @@
+﻿Subject,Course,Professor,Day of the week,Credits,Time,Section,Semester,
+CS,125: Business Information Systems,STAFF,"Tue,Thu",3,12:50-2:10,1,Fall
+CS,125: Business Information Systems,STAFF,"Tue,Thu",3,12:50-2:10,2,Fall
+CS,125: Business Information Systems ,STAFF,"Tue,Thu",3,12:50-2:10,3,Fall
+CS,125: Business Information Systems ,STAFF,"Tue,Thu",3,9:30-10:50,4,Fall
+CS,171: Computer Science I ,Kent Jones,"Mon,Wed,Fri",3,1:55-2:50,1,Fall
+CS,171: Computer Science I,Qian Mao,"Mon,Wed,Fri",3,9:05-10:00,2,Fall
+CS,171: Computer Science I ,Qian Mao,"Mon,Wed,Fri",3,10:25-11:20,3,Fall
+CS,171: Computer Science I,Scott Griffith,"Mon,Wed,Fri",3,,4,Fall
+CS,171: Computer Science I ,Kent Jones,"Mon,Wed,Fri",3,1:55-2:50,5,Fall
+CS,171: Computer Science I,Qian Mao,"Mon,Wed,Fri",3,9:05-10:00,6,Fall
+CS,171: Computer Science I ,Qian Mao,"Mon,Wed,Fri",3,10:25-11:20,7,Fall
+CS,171: Computer Science I,Scott Griffith,"Mon,Wed,Fri",3,,8,Fall
+CS,172: Computer Science II,Scott Griffith,"Tue,Thu",3,9:30-10:50,1,Fall
+CS,172: Computer Science II ,Scott Griffith,"Tue,Thu",3,9:30-10:50,2,Fall
+CS,200: Computer Science Outreach,Pete Tucker,Tue,1,6:00-6:55,1,Fall
+CS,200: Computer Science Outreach ,Pete Tucker,Tue,1,6:00-6:55,2,Fall
+CS,273: Data Structures ,Matt Bell,"Mon,Wed,Fri",3,10:25-11:20,1,Fall
+CS,273: Data Structures,Matt Bell,"Mon,Wed,Fri",3,9:05-10:00,2,Fall
+CS,273: Data Structures ,Matt Bell,"Mon,Wed,Fri",3,10:25-11:20,3,Fall
+CS,273: Data Structures,Matt Bell,"Mon,Wed,Fri",3,9:05-10:00,4,Fall
+CS,274: Social and Ethical Issues in Computer Science ,Matt Bell,"Tue,Thu",3,8:00-9:20,1,Fall
+CS,274: Social and Ethical Issues in Computer Science,Matt Bell,"Tue,Thu",3,8:00-9:20,2,Fall
+CS,278: Computer Organization and Assembler Programming ,Scott Griffith,"Tue,Thu",3,12:50-2:10,1,Fall
+CS,278: Computer Organization and Assembler Programming,Scott Griffith,"Tue,Thu",3,12:50-2:10,2,Fall
+CS,313: Networks ,Qian Mao,"Tue,Thu",3,12:50-2:10,1,Fall
+CS,313: Networks,Qian Mao,"Tue,Thu",3,12:50-2:10,2,Fall
+CS,333: Intro to Programming Contests (Honors) ,Kent Jones,Tue,1,4:00-6:00,1,Fall
+CS,333: Intro to Programming Contests (Honors),Kent Jones,Tue,1,4:00-6:00,2,Fall
+CS,359: Technology and Culture: Study Abroad Preparation ,Pete Tucker,,1,,1,Fall
+CS,359: Technology and Culture: Study Abroad Preparation,Pete Tucker,,1,,2,Fall
+CS,370: Programming Languages ,Pete Tucker,"Mon,Wed,Fri",3,11:45-12:40,1,Fall
+CS,370: Programming Languages,Pete Tucker,"Mon,Wed,Fri",3,11:45-12:40,2,Fall
+CS,373: Digital Logic Design ,Kent Jones,"Mon,Wed,Fri",3,10:25-11:20,1,Fall
+CS,373: Digital Logic Design,Kent Jones,"Mon,Wed,Fri",3,10:25-11:20,2,Fall
+CS,374: Database Management ,Pete Tucker,"Tue,Thu",3,9:30-10:50,1,Fall
+CS,374: Database Management,Pete Tucker,"Tue,Thu",3,9:30-10:50,2,Fall
+CS,471: Software Engineering Seminar ,Pete Tucker,Thu,1,6:00-6:55,1,Fall
+CS,471: Software Engineering Seminar,Pete Tucker,Thu,1,6:00-6:55,2,Fall
+CS,473: Advanced Algorithm Design ,Kent Jones,"Mon,Wed,Fri",3,12:50-1:45,1,Fall
+CS,473: Advanced Algorithm Design,Kent Jones,"Mon,Wed,Fri",3,12:50-1:45,2,Fall
