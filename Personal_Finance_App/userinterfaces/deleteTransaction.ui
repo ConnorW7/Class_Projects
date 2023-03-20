@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>795</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <widget class="QWidget" name="backGroundWidget" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#backGroundWidget{
+background-color: qlineargradient(spread:pad, x1:0.0567727, y1:0.375, x2:0.784, y2:0.846, stop:0 rgba(45, 77, 124, 255), stop:1 rgba(188, 194, 255, 255));}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="5" column="2">
+       <widget class="QWidget" name="widgetRightMargin" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QWidget" name="widgetContent" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>500</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="4" column="0" colspan="2">
+          <widget class="QLabel" name="labelError">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 0, 0);
+font: 10pt &quot;Segoe UI&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="2">
+          <widget class="QLabel" name="labelNewAccount">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 36pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Delete Transaction</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0" colspan="2">
+          <widget class="QPushButton" name="buttonDeleteTransaction">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius:15px;
+font: 16pt &quot;Segoe UI&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(47, 82, 134);</string>
+           </property>
+           <property name="text">
+            <string>Delete Transaction</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="labelTransactionID">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Transaction ID</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QSpinBox" name="spinBoxTransactionId">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>200</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(47, 82, 134);</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+        <zorder>labelNewAccount</zorder>
+        <zorder>labelTransactionID</zorder>
+        <zorder>buttonDeleteTransaction</zorder>
+        <zorder>labelError</zorder>
+        <zorder>spinBoxTransactionId</zorder>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QWidget" name="widgetExit" native="true">
+        <layout class="QGridLayout" name="gridLayout_2"/>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QWidget" name="widgetLeftMargin" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QWidget" name="widgetBottomMargin" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QWidget" name="widgetTopMargin" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2"/>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

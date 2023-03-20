@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1004</width>
+    <height>795</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <widget class="QWidget" name="backGroundWidget" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#backGroundWidget{
+background-color: qlineargradient(spread:pad, x1:0.0567727, y1:0.375, x2:0.784, y2:0.846, stop:0 rgba(45, 77, 124, 255), stop:1 rgba(188, 194, 255, 255));}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="5" column="2">
+       <widget class="QWidget" name="widgetRightMargin" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QWidget" name="widgetContent" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>250</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>500</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_4">
+         <item row="5" column="0" colspan="2">
+          <widget class="QLabel" name="labelError">
+           <property name="styleSheet">
+            <string notr="true">color: rgb(255, 0, 0);
+font: 10pt &quot;Segoe UI&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1" alignment="Qt::AlignRight">
+          <widget class="QLineEdit" name="lineEditCategory">
+           <property name="minimumSize">
+            <size>
+             <width>225</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>225</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgba(0,0,0,0);
+font: 14pt &quot;Segoe UI&quot;;
+border-color: rgb(255, 255, 255);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0" colspan="2">
+          <widget class="QPushButton" name="buttonCreateNewTransaction">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-radius:15px;
+font: 16pt &quot;Segoe UI&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(47, 82, 134);</string>
+           </property>
+           <property name="text">
+            <string>Create New Transaction</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="labelAmount">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Amount</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1" alignment="Qt::AlignRight|Qt::AlignVCenter">
+          <widget class="QDateEdit" name="dateEditTransactionDate">
+           <property name="minimumSize">
+            <size>
+             <width>225</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>225</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(47, 82, 134);</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="2">
+          <widget class="QLabel" name="labelNewAccount">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 36pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>New Transaction</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="labelDate">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>15</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Date</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="labelCategory">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>15</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Category</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QWidget" name="widgetAmount" native="true">
+           <property name="minimumSize">
+            <size>
+             <width>250</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>250</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item alignment="Qt::AlignRight">
+             <widget class="QLabel" name="labelDollarSign">
+              <property name="styleSheet">
+               <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255)</string>
+              </property>
+              <property name="text">
+               <string>$</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QDoubleSpinBox" name="doubleSpinBoxAmount">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>225</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>225</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(47, 82, 134);</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="labelTransactionType">
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string>Transaction Type</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1" alignment="Qt::AlignRight">
+          <widget class="QComboBox" name="comboBoxTransactionType">
+           <property name="minimumSize">
+            <size>
+             <width>225</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>225</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(47, 82, 134);</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Deposit</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Withdrawal</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+        <zorder>labelDate</zorder>
+        <zorder>labelNewAccount</zorder>
+        <zorder>labelCategory</zorder>
+        <zorder>labelAmount</zorder>
+        <zorder>widgetAmount</zorder>
+        <zorder>buttonCreateNewTransaction</zorder>
+        <zorder>lineEditCategory</zorder>
+        <zorder>dateEditTransactionDate</zorder>
+        <zorder>labelError</zorder>
+        <zorder>labelTransactionType</zorder>
+        <zorder>comboBoxTransactionType</zorder>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QWidget" name="widgetExit" native="true">
+        <layout class="QGridLayout" name="gridLayout_2"/>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QWidget" name="widgetLeftMargin" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QWidget" name="widgetBottomMargin" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QWidget" name="widgetTopMargin" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2"/>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
